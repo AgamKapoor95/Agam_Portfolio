@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Agam_Portfolio/static/css/main.88c4f862.css",
+    "main.js": "/Agam_Portfolio/static/js/main.2c0f1329.js",
+    "static/js/787.1297335f.chunk.js": "/Agam_Portfolio/static/js/787.1297335f.chunk.js",
+    "static/media/Agam_Kapoor_Resume.pdf": "/Agam_Portfolio/static/media/Agam_Kapoor_Resume.6c2ba38d4454c1005420.pdf",
+    "static/media/engagebay.png": "/Agam_Portfolio/static/media/engagebay.cd14cd2dc728f0a231e1.png",
+    "static/media/youtube.png": "/Agam_Portfolio/static/media/youtube.a769e69b17bae7e662e1.png",
+    "static/media/Picture.png": "/Agam_Portfolio/static/media/Picture.d12accd97dc9aa753396.png",
+    "static/media/profile.png": "/Agam_Portfolio/static/media/profile.6aba201082b14234f675.png",
+    "static/media/logo.svg": "/Agam_Portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Agam_Portfolio/index.html",
+    "main.88c4f862.css.map": "/Agam_Portfolio/static/css/main.88c4f862.css.map",
+    "main.2c0f1329.js.map": "/Agam_Portfolio/static/js/main.2c0f1329.js.map",
+    "787.1297335f.chunk.js.map": "/Agam_Portfolio/static/js/787.1297335f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88c4f862.css",
+    "static/js/main.2c0f1329.js"
+  ]
+}
