@@ -1,0 +1,33 @@
+
+.experience{
+background: var(--color-bg-variant);
+padding: .5rem 1rem;
+border-radius: 2rem;
+border: 1px solid transparent;
+text-align: center;
+
+}
+.experience:hover{
+    background: transparent;
+    cursor: default;
+    border-color: var(--color-primary-variant);
+}
+
+.techStack{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 1.5rem;
+    row-gap:2rem;
+    margin-bottom: 2rem;
+}
+
+.techStack div{
+    display: flex;
+    gap: 1rem;
+    justify-content: center; 
+}
+
+.icon{
+    margin-top: 6px;
+    color: var(--color-light);
+}

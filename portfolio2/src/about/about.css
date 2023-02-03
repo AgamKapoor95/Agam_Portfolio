@@ -1,0 +1,64 @@
+.about__Container{
+    display: grid;
+    grid-template-columns: 35% 50%;
+   gap: 15%; 
+}
+
+.content{
+    width: 100%;
+    aspect-ratio: 1/1;
+    background: linear-gradient(45deg,transparent,var(--color-bg),transparent);
+    display: grid;
+    place-items: center;
+    border-radius: 2rem;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.5rem;
+}
+
+.card{
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    text-align: center;
+    padding: 2.2rem;
+}
+.card:hover{
+    background: transparent;
+    border: 2px solid var(--color-bg-variant);
+}
+
+.image {
+    --_g: 10% /45% 45% no-repeat linear-gradient(#000 0 0);
+    --m:
+      left   var(--_i,0%) top    var(--_g),
+      bottom var(--_i,0%) left   var(--_g),
+      top    var(--_i,0%) right  var(--_g),
+      right  var(--_i,0%) bottom var(--_g);
+    -webkit-mask: var(--m);
+            mask: var(--m);
+    filter: grayscale();
+    transition: .3s linear;
+    cursor: pointer;
+  
+  }
+  .image:hover {
+    --_i: 10%;
+    filter: grayscale(0);
+  
+  }
+
+ 
+  .card h5{
+      font-size: 1rem;
+  }
+
+  .card p{
+      margin: 2rem 0 2.5rem;
+      color: var(--color-light);
+  }
+
+ 
